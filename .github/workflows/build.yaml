@@ -19,7 +19,7 @@ jobs:
         with:
           go-version: stable
       - name: Check out code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Bump tag version
         id: bumpTag
